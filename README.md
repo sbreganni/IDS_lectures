@@ -26,9 +26,9 @@
 
 9. Monitoring and communication \[[**.html**](https://raw.githack.com/intro-to-data-science-25/lectures/main/09-communication/09-communication.html) | [**.pdf**](https://raw.githack.com/intro-to-data-science-25/lectures/main/09-communication/09-communication.pdf) | [**.Rmd**](https://raw.githack.com/intro-to-data-science-25/lectures/main/09-communication/09-communication.Rmd)\]
 
-10. Data science ethics \[[**.html**](https://raw.githack.com/intro-to-data-science-25/lectures/main/10-ethics/10-ethics.html) | [**.pdf**](https://raw.githack.com/intro-to-data-science-25/lectures/main/10-ethics/10-ethics.pdf) | [**.Rmd**](https://raw.githack.com/intro-to-data-science-25/lectures/main/10-ethics/10-ethics.Rmd)\]
+10. Towards open data science \[[**.html**](https://raw.githack.com/intro-to-data-science-25/lectures/ma10in/10-opendata/10-opendata.html) | [**.pdf**](https://raw.githack.com/intro-to-data-science-25/lectures/main/10-opendata/10-opendata.pdf) | [**.Rmd**](https://raw.githack.com/intro-to-data-science-25/lectures/main/10-opendata/10-opendata.Rmd)\]
 
-11. Towards open data science \[[**.html**](https://raw.githack.com/intro-to-data-science-25/lectures/main/11-opendata/11-opendata.html) | [**.pdf**](https://raw.githack.com/intro-to-data-science-25/lectures/main/11-opendata/11-opendata.pdf) | [**.Rmd**](https://raw.githack.com/intro-to-data-science-25/lectures/main/11-opendata/11-opendata.Rmd)\]
+11. Data science ethics \[[**.html**](https://raw.githack.com/intro-to-data-science-25/lectures/main/11-ethics/11-ethics.html) | [**.pdf**](https://raw.githack.com/intro-to-data-science-25/lectures/main/11-ethics/11-ethics.pdf) | [**.Rmd**](https://raw.githack.com/intro-to-data-science-25/lectures/main/11-ethics/11-ethics.Rmd)\]
 
 12. Hackathon 
 	\[[**.html**](https://raw.githack.com/intro-to-data-science-25/lectures/main/12-hackathon/12-hackathon.html) | 	[**.pdf**](https://raw.githack.com/intro-to-data-science-25/lectures/main/12-hackathon/12-hackathon.pdf) | 	[**.Rmd**](https://raw.githack.com/intro-to-data-science-25/lectures/main/12-hackathon/12-hackathon.Rmd)\]
