@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Hackathon and Coding Exam</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Simon Munzert" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+    <script src="https://tikzjax.com/v1/tikzjax.js"></script>
+    <link rel="stylesheet" href="simons-touch.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Hackathon and Coding Exam
+]
+.subtitle[
+## Everything I think you need to know for now.<br>Nothing of what you actually wanted to hear.
+]
+.author[
+### Simon Munzert
+]
+.institute[
+### Hertie School | <a href="https://github.com/intro-to-data-science-25">GRAD-C11/E1339</a>
+]
+
+---
+
+
+class: inverse, center, middle
+name: hackathon
+
+&lt;style type="text/css"&gt;
+@media print { # print out incremental slides; see https://stackoverflow.com/questions/56373198/get-xaringan-incremental-animations-to-print-to-pdf/56374619#56374619
+  .has-continuation {
+    display: block !important;
+  }
+}
+&lt;/style&gt;
+
+
+
+
+# The hackathon
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px style="width:1000px; margin:auto;"/&gt;&lt;/html&gt;
+
+
+---
+# Assignments and grading
+
+| Component                           | Weight |
+|:-|-:|
+| 3(4) × homework assignments | pass/fail |
+| 4(5) × online quizzes (5% each) | 20% |
+| 1 × hackathon project       | 40% |
+| 1 × in-class coding exam 	| 40% |
+
+### Hackathon project
+- On December 1, 14-16h, there will be a hackathon hosted at Hertie &lt;b&gt;in the Forum&lt;/b&gt;.
+- At the hackathon itself, I'll introduce the data and provide an environment that should facilitate you getting started with the project and finalize group formation.
+- After the hackathon project, you will get instructions. You will then have &lt;b&gt;96 hours&lt;/b&gt; to submit your solutions. &lt;b&gt;Submission deadline: December 5, 6pm CET&lt;/b&gt;.
+- The task is similar to the homework assignments but puts more emphasis on creative problem-solving using the tools and techniques you have learned in class.
+
+
+
+---
+# Hackathon project: guidance
+
+.pull-left[
+## 1. The tasks
+
+The hackathon project will consist of two main tasks.
+
+**The first** task is a set of specific problems to be solved with the data. There will be 4 sub-tasks, which might facilitate splitting up the tasks as a group. As a group of three you choose 3 out of 4 tasks to work on, as a group of 4 you work on all 4.
+
+**The second** task is one that gives you more flexibility in what to do with the data. Within pre-specified constraints, you generate a "data insight" piece that focuses on a narrow question that can be answered with the data. The format is a brief, blog-style report for a non-technical audience that uses text and visuals to support your findings.
+]
+
+.pull-right[
+&lt;div align="center"&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;img src="pics/archive-pic.jpg" width=500&gt;
+&lt;/div&gt;
+]
+
+
+---
+# Hackathon project: guidance
+
+.pull-left[
+## 2. Group formation
+
+You submit your solution as a group, using the project GitHub repo (only one submission per group is expected). The statement of contributions clarifies who is part of the group and contributed to which component. 
+
+If you couldn't find a group by the evening of December 1, please reach out to me. And don't feel embarrassed - sometimes things just don't work out. Also, think of those who cannot make it to the hackathon. Make use of the Moodle forum and other channels to reach out to them.
+]
+
+.pull-right[
+&lt;div align="center"&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;img src="pics/archive-pic.jpg" width=500&gt;
+&lt;/div&gt;
+]
+
+
+---
+# Hackathon project: guidance
+
+.pull-left[
+## 3. The hackathon event and instructions
+
+At the event, I'm going to introduce the data that you're going to use for the hackathon project. Also, you'll have the chance to interact with the data and develop ideas about possible research questions for the data insight piece.
+
+The instructions will go online on the evening after the event. First thing to do is access the repo, then read the instructions. 
+
+We will use GitHub classroom again for this. There will be two GitHub Classroom repos: One for individual use and one for groups. To collaborate on and ultimately submit your project, use the group repository (just as usual - commit + push). **Set up your group repository until December 2, 10am** - this serves as group registration for the project.
+]
+
+.pull-right[
+&lt;div align="center"&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;img src="pics/archive-pic.jpg" width=500&gt;
+&lt;/div&gt;
+]
+
+---
+# Hackathon project: guidance
+
+.pull-left[
+## 4. Preparation
+
+While I don't expect you to prepare for the event in particular, there are a couple of things that you still might want to do:
+
+&lt;ol type="a"&gt;
+  &lt;li&gt;Check out the course materials again. By now, you should be proficient in the core tools of the tidyverse.&lt;/li&gt;
+  &lt;li&gt;Prepare a workflow for your group, and assign roles/responsibilities.&lt;/li&gt;
+  &lt;li&gt;Draft an Rmd template. You'll need two - one for the problem set, one for the blog article.&lt;/li&gt;
+&lt;/ol&gt;
+]
+
+.pull-right[
+&lt;div align="center"&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;img src="pics/archive-pic.jpg" width=500&gt;
+&lt;/div&gt;
+]
+
+
+
+---
+class: inverse, center, middle
+name: exam
+
+# The coding exam
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px style="width:1000px; margin:auto;"/&gt;&lt;/html&gt;
+
+
+---
+# Assignments and grading
+
+| Component                           | Weight |
+|:-|-:|
+| 3(4) × homework assignments | pass/fail |
+| 4(5) × online quizzes (5% each) | 20% |
+| 1 × hackathon project       | 40% |
+| 1 × in-class coding exam 	| 40% |
+
+### In-class coding exam
+- The in-class coding exam will take place on **December 12, 10-12h, in the Forum**.
+- The exam will be open-book, open-internet, and open-R. Collaboration will not be allowed.
+- The exam will be similar to the homework assignments but with a stronger emphasis on problem-solving under time constraints.
+- You will have 90 minutes to solve the exam.
+
+
+---
+# The exam: what to expect
+
+.pull-left[
+## Structure
+
+- The exam will consist of 10-15 tasks that you need to solve in R.
+- The tasks will cover topics and techniques that we have covered in the course.
+- You'll be working with 1-2 datasets that I will provide.
+- The tasks will be non-cumulative, i.e., you can solve each task independently of the others. There might be a few sub-tasks that build on each other.
+]
+
+.pull-right[
+&lt;div align="center"&gt;
+&lt;br&gt;
+&lt;img src="pics/keypunching-1940s.jpg" width=500&gt;
+&lt;/div&gt;
+]
+
+---
+# The exam: what to expect
+
+
+.pull-left[
+## Potential topics
+
+- Data wrangling: filtering, selecting, mutating, summarizing, joining, ...
+- Writing functions
+- Iteration
+- Regular expressions
+- Scraping HTMLs
+- Modeling (only lm) and evaluation
+- Data visualization: creating plots with ggplot2
+]
+
+.pull-right[
+&lt;div align="center"&gt;
+&lt;br&gt;
+&lt;img src="pics/keypunching-1940s.jpg" width=500&gt;
+&lt;/div&gt;
+]
+
+---
+# The exam: what to expect
+
+.pull-left[
+## Example question types
+
+*Coding tasks to solve a specific problem with given data*
+
+&gt; Using the `penguins` data, create a new data frame that:
+- excludes rows with missing values in any of `species`, `island`, `bill_length_mm`, `bill_depth_mm`, `flipper_length_mm`, or `body_mass_g`;
+- contains only the variables listed above plus `sex` and `year`.
+
+&gt; Summarize the new data frame by `species` and `sex`, calculating the mean and standard deviation of `bill_length_mm` and `body_mass_g` for each group.
+]
+
+.pull-right[
+&lt;div align="center"&gt;
+&lt;br&gt;
+&lt;img src="pics/keypunching-1940s.jpg" width=500&gt;
+&lt;/div&gt;
+]
+
+---
+# The exam: what to expect
+
+.pull-left[
+## Example question types
+
+*Code revision tasks to adjust given code*
+
+&gt; The following code is intended to create a scatter plot of `mpg` vs. `wt` from the `mtcars` dataset, colored by `cyl`. However, it contains several errors. Identify and correct the errors to produce the desired plot.
+]
+
+.pull-right[
+&lt;div align="center"&gt;
+&lt;br&gt;
+&lt;img src="pics/keypunching-1940s.jpg" width=500&gt;
+&lt;/div&gt;
+]
+
+
+---
+# The exam: what to expect
+
+.pull-left[
+## Example question types
+
+*Tasks that ask you to write code freely*
+
+&gt; Write a function `summarise_species()` that:
+- takes a character string `sp` as an input (the name of a species),
+- filters `penguins` to this species (removing rows with missing body mass),
+- returns a one-row tibble with the species name, the number of observations, the mean body mass, and the standard deviation of body mass.
+
+&gt; Do not print anything inside the function; just return the tibble.
+]
+
+.pull-right[
+&lt;div align="center"&gt;
+&lt;br&gt;
+&lt;img src="pics/keypunching-1940s.jpg" width=500&gt;
+&lt;/div&gt;
+]
+
+
+---
+# The exam: what to expect
+
+.pull-left[
+## Example question types
+
+*Reflection and explanation tasks*
+
+&gt; Below you see R code that was used to generate the figure `penguins-scatter.png` that you find in the folder.
+- Identify and explain any three issues with the plot regarding principles of good data visualization.
+- Explain line by line what the code does.
+- Suggest a modification to the code that would address one of the issues you identified.
+]
+
+.pull-right[
+&lt;div align="center"&gt;
+&lt;br&gt;
+&lt;img src="pics/keypunching-1940s.jpg" width=500&gt;
+&lt;/div&gt;
+]
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+  "highlightStyle": "github",
+  "highlightLines": true,
+  "countIncrementalSlides": false,
+  "ratio": "16:9",
+  "hash": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+<style>
+  .logo {
+    background-image: url("../hertieschool-neg.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1.5em;
+    right: 1em;
+    width: 150px;
+    height: 128px;
+    z-index: 0;
+  }
+</style>
+  
+  <script>
+  document
+.querySelectorAll(
+  '.remark-slide-content' +
+    ':not(.title-slide)' +
+    ':not(.inverse)' +
+	
+    // add additional classes to exclude here, e.g.
+  // ':not(.inverse)' +
+    ':not(.hide-logo)'
+)
+.forEach(el => {
+  el.innerHTML += '<div class="logo"></div>';
+});
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
